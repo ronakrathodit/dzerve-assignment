@@ -58,7 +58,7 @@ const Landing=(props)=>{
             }else{
                 let EmailCheck= emailText(value);
                 if(!EmailCheck){
-                    errorMsg['uniqueIdError']="Please enter email id/mobile number"
+                    errorMsg['uniqueIdError']="Please enter a valid email id/mobile number"
                     emailCheck=null;
                 }else{
                     errorMsg['uniqueIdError']="";
