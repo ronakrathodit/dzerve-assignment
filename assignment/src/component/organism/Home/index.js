@@ -120,7 +120,7 @@ const Landing=(props)=>{
             errorMsg['CpwdError']="Entered password does not match criteria"
         }else if(pwd!==state.pwd){
             errorMsg['CpwdError']="Password and confirm password field should be match"   
-        }else if(uniqueId===state.Cpwd){
+        }else if(uniqueId===state.pwd){
             errorMsg['CpwdError']="Entered password does not match criteria"   
         }else{
             errorMsg['uniqueIdError']="";
