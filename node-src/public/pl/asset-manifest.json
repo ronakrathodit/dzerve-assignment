@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/pl/static/css/main.509114b7.chunk.css",
+    "main.js": "/pl/static/js/main.cdf22374.chunk.js",
+    "main.js.map": "/pl/static/js/main.cdf22374.chunk.js.map",
+    "runtime-main.js": "/pl/static/js/runtime-main.475710c1.js",
+    "runtime-main.js.map": "/pl/static/js/runtime-main.475710c1.js.map",
+    "static/css/2.49cf97c6.chunk.css": "/pl/static/css/2.49cf97c6.chunk.css",
+    "static/js/2.289d5e32.chunk.js": "/pl/static/js/2.289d5e32.chunk.js",
+    "static/js/2.289d5e32.chunk.js.map": "/pl/static/js/2.289d5e32.chunk.js.map",
+    "index.html": "/pl/index.html",
+    "precache-manifest.21b189b7298b8892a73020dc45026d4f.js": "/pl/precache-manifest.21b189b7298b8892a73020dc45026d4f.js",
+    "service-worker.js": "/pl/service-worker.js",
+    "static/css/2.49cf97c6.chunk.css.map": "/pl/static/css/2.49cf97c6.chunk.css.map",
+    "static/css/main.509114b7.chunk.css.map": "/pl/static/css/main.509114b7.chunk.css.map",
+    "static/js/2.289d5e32.chunk.js.LICENSE.txt": "/pl/static/js/2.289d5e32.chunk.js.LICENSE.txt",
+    "static/media/banklogo.webp": "/pl/static/media/banklogo.0775ffb1.webp",
+    "static/media/clappingHands.webp": "/pl/static/media/clappingHands.90492c96.webp",
+    "static/media/bootstrap.min.css": "/pl/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/font.css": "/pl/static/media/pfhandbookpro-thinitalic_35442-webfont.e0976a41.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.475710c1.js",
+    "static/css/2.49cf97c6.chunk.css",
+    "static/js/2.289d5e32.chunk.js",
+    "static/css/main.509114b7.chunk.css",
+    "static/js/main.cdf22374.chunk.js"
+  ]
+}

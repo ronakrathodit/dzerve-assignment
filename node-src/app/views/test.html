@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="http://localhost:8042/health-insurance/religarePayResp" method='post'>
+  <label for="fname">CSRF:</label><br>
+  <input type="text" id="fname" name="csrf" value=""><br>
+  <label for="lname">Policy Number:</label><br>
+  <input type="text" id="lname" name="policyNum" value=""><br><br>
+  <label for="lname">Trans Ref Number:</label><br>
+  <input type="text" id="lname" name="transactionRefNum" value=""><br><br>
+  <label for="lname">Decision:</label><br>
+  <input type="text" id="lname" name="uwDecision" value=""><br><br>
+  <label for="lname">Error Flag:</label><br>
+  <input type="text" id="lname" name="errorFlag" value=""><br><br>
+  <label for="lname">Error Msg:</label><br>
+  <input type="text" id="lname" name="errorMsg" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
