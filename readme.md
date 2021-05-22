@@ -1,4 +1,4 @@
------------------- MySQL setup. ---------------- \n
+------------------ MySQL setup. ----------------
 
 Open your database. Ex. phpmyadmin or any tool which connects mysql. Ensure you have mysql installed. \n
 
