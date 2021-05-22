@@ -107,19 +107,21 @@ const Landing=(props)=>{
         if(uniqueId===""){
             errorMsg['uniqueIdError'] = "Please enter email id/mobile number"
         }else if(emailCheck && !ECheck){
-            errorMsg['uniqueIdError'] = "Please enter email id/mobile number"
+            errorMsg['uniqueIdError'] = "Please enter a valid email id/mobile number"
         } else if(!emailCheck && uniqueId.length!==10){
-            errorMsg['uniqueIdError'] = "Please enter email id/mobile number"
+            errorMsg['uniqueIdError'] = "Please enter a valid email id/mobile number"
         } else if(pwd===""){
             errorMsg['pwdError']="Please enter password"
         } else if(!pwdcheck){
-            errorMsg['pwdError']="Entered password doesn't not match criteria"
+            errorMsg['pwdError']="Entered password does not match criteria"
         } else if(Cpwd===""){
             errorMsg['CpwdError']="Please enter password"
         }else if(!pwdcheck1){
-            errorMsg['CpwdError']="Entered password doesn't not match criteria"
+            errorMsg['CpwdError']="Entered password does not match criteria"
         }else if(pwd!==state.pwd){
             errorMsg['CpwdError']="Password and confirm password field should be match"   
+        }else if(uniqueId===state.Cpwd){
+            errorMsg['CpwdError']="Entered password does not match criteria"   
         }else{
             errorMsg['uniqueIdError']="";
             errorMsg['pwdError']="";
