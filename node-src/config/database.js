@@ -13,3 +13,6 @@ const sequelize = new Sequelize(dbname, dbuser, dbpass, {
 });
 
 module.exports = sequelize;
+
+let connection = sequelize.authenticate();
+console.log(connection,'sequelize connection');
